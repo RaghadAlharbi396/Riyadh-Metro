@@ -11,6 +11,6 @@
 
 # Team Members
 - Raghad Alharbi(Leader)
-- Ziad Alkhathlan
+- Zaid Alkhathlan
 - Rahaf Alotaibi
 - Jumanah Alqurashi
