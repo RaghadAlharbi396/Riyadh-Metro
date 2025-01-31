@@ -155,7 +155,7 @@ def filter_by_category(station, category):
      
 # Streamlit UI
 st.title("🚆 Riyadh Metro Nearby Places")
-
+st.image("https://www.riyadhbus.sa/o/rcrc-theme/images/rcrc/main-slider-f0493a.svg")
 # Tabs for different searches
 tab1, tab2 = st.tabs(["📍 Search by Metro Station", "🔍 Search by Restaurant Name"])
 
@@ -177,6 +177,7 @@ with tab1:
 with tab2:
     st.subheader("Find the Metro Station for a Restaurant or Coffee Shop")
     restaurant_search = st.text_input("Enter Restaurant or Coffee Shop Name")
+    restaurant_search = restaurant_search.rstrip()
     if st.button("Find Metro Station"):
         station_name = show_nearby_stations(restaurant_search)
         if station_name:
