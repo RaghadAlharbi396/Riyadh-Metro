@@ -7,7 +7,7 @@
 ### A website that helps passengers find nearby cafes and restaurants at Red Path stations. Each station has a list of some popular spots, including their category, distance, and rating, making it easier to choose a place to eat or grab a coffee.
 ### Passengers  can search for a specific metro station and view all nearby places. They can also sort the results by rating or distance to find the best or closest option. Additionally, users can filter the list by category, such as cafes or restaurants, to match their preferences.
 
-
+[Try the website ](https://riyadh-metro-red-path-nearby-places.streamlit.app)
 
 # Team Members
 - Raghad Alharbi(Leader)
